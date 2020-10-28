@@ -1,0 +1,81 @@
+
+html{
+    
+    text-align: center;
+}
+
+#centrado{
+    
+    text-align: center;
+}
+h1{
+    
+    font-size: 33pt;
+
+}
+
+.arriba{
+    
+    font-family: sans-serif;
+    font-size: 9pt;
+    color: gray
+}
+
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 9pt;
+    color: gray;
+   
+}
+.fecha{
+    
+    font-family: sans-serif;
+    font-size: 6pt;
+}
+
+#anacuna{
+    
+    padding: 70px;
+}
+
+.capitular{
+    
+    font-size: 100pt;
+    font-family: sans-serif;
+    
+}
+
+#arribapag{
+    
+    text-align: center
+}
+
+#parrafo1 p, #parrafo2 p, #parrafo3 p, #parrafo4 p, #parrafo5 p, #parrafo6 p,  #parrafo7 p, #parrafo8 p, #parrafo9 p, #parrafo10 p, #parrafo11 p{
+    
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.imagen{
+    
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+.negritas{
+    
+    font-family: sans-serif;
+    
+}
+
+#barra{
+    
+    background-color: darkblue;
+    padding-top: 50px;
+    
+    
+}
