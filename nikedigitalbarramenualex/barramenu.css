@@ -1,0 +1,73 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+h1 {
+    font-weight: lighter;
+    
+   
+}
+
+h2, ul {
+    color: gray;
+    font-size: 7pt;
+    list-style: none;
+}
+
+
+#titulos {
+    
+padding: 200px;
+       
+        }
+
+.medio {
+    
+    margin-left: 200px;
+    margin-bottom: 200px;
+    margin-right: 200px;
+}
+
+#cuadrocolor {
+    background-color: black;
+    
+    padding: 200px;
+        
+    }
+#explica {
+    
+      margin-left: 200px;
+    margin-bottom: 200px;
+    margin-right: 200px;
+}
+
+#enlaces {
+    
+     
+    font-size: 10pt;
+   
+}
+
+a {
+    color: coral
+}
+
+a:hover {
+    color: skyblue
+}
+
+.este {
+    background-color: black;
+     position: fixed;
+    top: 8px;
+    left: 16px;
+    width: 100%;
+    padding-left: 5%;
+    
+}
+
+.menu{
+    color: white;
+}
