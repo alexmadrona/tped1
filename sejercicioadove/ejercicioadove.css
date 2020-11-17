@@ -1,0 +1,66 @@
+.logo {
+    position: absolute;
+    z-index: 2;
+    width: 5%;
+    top: 0;
+    left: 10%
+}
+.flor{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+#barra {
+    z-index: 1;
+    position: fixed;
+    display: inline-flex;
+    width: 30%;
+    right: 2px;
+    height: 40px;
+    list-style: none;
+    
+}
+#barra a{
+    margin: 10px;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+#texto{
+    position: absolute;
+    z-index: 3;
+    top: 20%;
+    left: 10%;
+    height: 500px;
+}
+h1{
+    font-size: 27pt;
+    font-family: arial;
+}
+#texto p{
+    padding-right: 65%;
+    font-family: arial;
+    font-size: 13pt;
+}
+.enlace{
+    left: 0;
+    color: cornflowerblue;
+    margin-left: 0px;
+    padding-top: 30px;
+    font-size: 15pt;
+}
+#azul{
+    position: absolute;
+    background-color: cornflowerblue;
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-size: 15pt;
+    top: 70%;
+    left: 10%;
+    margin: 0;
+}
