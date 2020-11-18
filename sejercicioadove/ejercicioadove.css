@@ -1,3 +1,19 @@
+body{
+    margin: 0px;
+}
+
+main{
+    position: relative;
+    background-image: url(fondo-1400x860.jpg);
+    background-size: 100%;
+    width: auto;
+    height: 900px;
+    background-color: red;
+    margin: 0px;
+    
+    
+     
+}
 .logo {
     position: absolute;
     z-index: 2;
@@ -5,22 +21,12 @@
     top: 0;
     left: 10%
 }
-.flor{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 0;
-}
-#barra {
-    z-index: 1;
-    position: fixed;
-    display: inline-flex;
-    width: 30%;
-    right: 2px;
+
+#barra{
     height: 40px;
-    list-style: none;
-    
+    position: fixed;
+    right: 15em;
+    top: 1em;
 }
 #barra a{
     margin: 10px;
@@ -31,11 +37,14 @@
     
 }
 #texto{
-    position: absolute;
-    z-index: 3;
+   padding-right: 50%;
+    width: 100%;
     top: 20%;
     left: 10%;
     height: 500px;
+    padding-top: 200px;
+    padding-left: 10%;
+    
 }
 h1{
     font-size: 27pt;
@@ -52,15 +61,80 @@ h1{
     margin-left: 0px;
     padding-top: 30px;
     font-size: 15pt;
+    text-decoration: none
 }
-#azul{
-    position: absolute;
+button{
+   
     background-color: cornflowerblue;
     width: 200px;
+    height: 50px;
     text-align: center;
     color: white;
     font-size: 15pt;
-    top: 70%;
+    position: relative;
     left: 10%;
-    margin: 0;
+    
+   
+}
+#pieimagen{
+    position:absolute;
+    padding-left: 50%;
+    top: 40em;
+    width: 40%
+    
+}
+
+#pieimagen img{
+    width: 2em;
+    margin: 1em;
+}
+.textito{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+#pieimagen h1{
+    font-size: 20pt
+}
+nav{
+    
+    background-color: dimgray;
+    height: 3em;
+    width: 100%;
+    display: flex;
+    padding-left: 10%;
+    font-family: sans-serif;
+    color:white;
+    
+}
+.amarillo{
+    color: sandybrown;
+    margin-right: 2em;
+}
+footer{
+    background-color: aqua;
+    height: 10em;
+    display: flex;
+    
+}
+footer > div{
+ 
+    background-color: gray;
+    width: 25%;
+    font-family: sans-serif;
+    color: white;
+    align-items: center;
+    display: flex;
+    
+   
+}
+footer h1{
+    font-size: 20pt;
+    font-family: arial;
+}
+footer img{
+    width: 4em;
+    height: auto;
+    margin-right: 1em;
+    margin-left: 2em;
 }
