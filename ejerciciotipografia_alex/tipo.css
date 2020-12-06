@@ -1,10 +1,16 @@
 @font-face{
     font-family: aventura;
     src:url(Aventura-Bold.otf);
+}
+@font-face{
     font-family: bariol;
     src:url(Bariol_Regular.otf);
+}
+@font-face{
     font-family: playbill;
     src:url(playbill_[allfont.es].ttf);
+}
+@font-face{
     font-family: kiona;
     src:url(Kiona-Regular.ttf)
 }
@@ -48,6 +54,7 @@
 #kiona{
     font-family: kiona;
 }
+
 
 
 
