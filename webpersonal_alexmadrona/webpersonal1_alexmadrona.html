@@ -7,7 +7,7 @@
     <title>Web Personal de Alex Madrona</title>
     <link rel="stylesheet" href="webpersonal1alex.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,13 +19,11 @@
     <link rel="stylesheet" href="ejemplo.css">
     <script>
         $(document).ready(function() {
-            $("#enlaceChat").click(function() {
-                $("#chat").toggle("slow");
-                $(this).toggleClass("chatOculto");
+            $("#cierraCookies").click(function() {
+                $("#cookies").hide("slow");
 
             });
         });
-
     </script>
 </head>
 <style type="text/css">
@@ -93,11 +91,13 @@
         </div>
     </div>
     <a href="webpersonal2_alex.html">
-    <button id="boton">
-        VER PROYECTOS
-    </button>
+        <button id="boton">
+            VER PROYECTOS
+        </button>
     </a>
+    <div id="cookies">
+        Ventana Cookies
+        <button id="cierraCookies">Cierra</button>
+    </div>
 
-</body>
-
-</html>
+</body></html>
