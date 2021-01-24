@@ -7,7 +7,7 @@
     background-color: black;
     padding-left: 2em;
     padding-right: 2em;
-    font-family: kiona;
+    font-family: 'Montserrat', sans-serif;
 }
 #boton{
     color: dimgray;
@@ -21,6 +21,7 @@
     margin: auto;
     z-index: 3;
     border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 1000px) {
@@ -50,8 +51,4 @@
 }
 #imagenmovil img{
     padding: 0;
-}
-@font-face{
-    font-family: kiona;
-    src:url(Kiona-Regular.ttf);
 }

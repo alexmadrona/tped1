@@ -5,7 +5,7 @@ html{
 #navegador{
       width: 100%;
     background-color: black;
-    font-family: kiona;
+      font-family: 'Montserrat', sans-serif;
     padding-left: 2em;
     padding-right: 2em;
 }
