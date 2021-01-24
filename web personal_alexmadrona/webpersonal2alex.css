@@ -1,0 +1,45 @@
+html{
+    background-color: black;
+}
+
+#navegador{
+      width: 100%;
+    background-color: black;
+    font-family: kiona;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#cuerpo{
+   background-color:black;
+    height: 100%;
+    margin-top: 76px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media (max-width: 1000px) {
+  #imagenespc {
+    display: none;
+  }
+} 
+@media (min-width: 999px) {
+  #imagenesmovil {
+    display: none;
+  }
+}
+#imagenesmovil img{
+    width: 100%;
+    padding: 5px;
+}
+#imagenesmovil{
+    width: 100%;
+    padding: 0;
+}
+#imagenespc img{
+    width: 100%;
+    padding: 8px;
+}
+#imagenespc{
+    width: 100%;
+    padding: 0;
+}

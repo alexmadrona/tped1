@@ -1,0 +1,39 @@
+html{
+    background-color: black;
+}
+
+#navegador{
+      width: 100%;
+    background-color: black;
+    font-family: kiona;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#cuerpo{
+    margin-top: 76px;
+    background-color: black;
+}
+
+#texto{
+  padding-top: 3em;
+    padding-left: 3em;
+    padding-right: 2em;
+    font-size: 20pt;
+    font-family: calibri;
+    color: darkgray;
+}
+#texto h1{
+  padding-bottom: 10vh;
+    font-size: 35pt;
+    font-family: kiona;
+}
+
+#foto{
+    padding-top: 6em;
+    padding-bottom: 4em;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
