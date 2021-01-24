@@ -16,7 +16,7 @@ html{
 }
 
 #texto{
-  padding-top: 3em;
+  padding-top: 5em;
     padding-left: 3em;
     padding-right: 2em;
     font-size: 18pt;
@@ -24,7 +24,7 @@ html{
     color: darkgray;
 }
 #texto h1{
-  padding-bottom: 10vh;
+  padding-bottom: 13vh;
     font-size: 35pt;
     font-family: 'Montserrat', sans-serif;
 }
