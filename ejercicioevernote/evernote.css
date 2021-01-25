@@ -1,0 +1,19 @@
+nav a{
+    color: green;
+}
+
+#elefante{
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    height: 15vh;
+}
+
+
+#footer{
+  align-items: center;
+    display: flex;
+    justify-content: center;
+}
